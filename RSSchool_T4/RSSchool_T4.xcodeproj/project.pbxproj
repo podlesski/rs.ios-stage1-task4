@@ -24,6 +24,7 @@
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
 		BD47B55B2268EDA10060BDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B55A2268EDA10060BDF3 /* main.m */; };
+		FFE894892443C48F003A2C84 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE894882443C48F003A2C84 /* TreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		BD47B5572268EDA10060BDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD47B5592268EDA10060BDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD47B55A2268EDA10060BDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFE894872443C48F003A2C84 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		FFE894882443C48F003A2C84 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 			children = (
 				25787FD4243F8E5F0066701D /* FullBinaryTrees.pdf */,
 				25787FD2243F8E5F0066701D /* ExampleTrees.png */,
+				FFE894872443C48F003A2C84 /* TreeNode.h */,
+				FFE894882443C48F003A2C84 /* TreeNode.m */,
 				25787FD3243F8E5F0066701D /* FullBinaryTrees.h */,
 				25787FD5243F8E5F0066701D /* FullBinaryTrees.m */,
 			);
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE894892443C48F003A2C84 /* TreeNode.m in Sources */,
 				25787FE0243F8E5F0066701D /* FullBinaryTrees.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
 				25787FDD243F8E5F0066701D /* ArrayCalculator.m in Sources */,
